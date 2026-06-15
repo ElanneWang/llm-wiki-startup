@@ -55,4 +55,17 @@ grep "^## \\[" log.md | tail -5
 
 ---
 
+## [2026-06-15] update | 新增「个人思考」模块
+
+- **新增目录**: `raw/thoughts/` 和 `wiki/thoughts/`
+- **更新 Schema**: AGENTS.md 增加 `thoughts` 分类、模板和摄入流程
+- **更新工作流程**: 新增「摄入个人思考」流程，与「摄入外部资料」分离
+- **思考演化路径**: `raw/thoughts/` → `wiki/thoughts/` → `wiki/cases/`（实践验证后）
+- **创建示例**:
+  - `raw/thoughts/2026-06-15_FDE模式能否用于个人知识管理.md`（原始思考）
+  - `wiki/thoughts/FDE模式能否用于个人知识管理.md`（结构化版本）
+- **更新**: index.md, overview.md
+
+---
+
 *日志结束*
