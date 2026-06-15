@@ -68,4 +68,19 @@ grep "^## \\[" log.md | tail -5
 
 ---
 
+## [2026-06-15] ingest | 视频：YC 访谈 Bob McGrew 谈 FDE 方法论
+
+- **来源**: B站 https://www.bilibili.com/video/BV1X6YNzKEhw
+- **原始来源**: YouTube YC https://www.youtube.com/watch?v=Zyw-YA0k3xo
+- **嘉宾**: Bob McGrew（OpenAI 前首席研究官，Palantir FDE 模式架构师）
+- **备注**: B站 412 反爬限制无法下载音频，通过网页文章获取内容
+- **创建页面**:
+  - `raw/videos/YC访谈-AI创业必看的FDE方法论.md`（原始资料）
+  - `wiki/sources/YC访谈-Bob McGrew谈FDE方法论.md`（源资料摘要）
+- **更新页面**:
+  - `wiki/concepts/FDE-前置部署工程师.md`（大幅更新：新增 Echo/Delta 结构、与咨询区别、商业模式、KPI）
+- **更新**: index.md
+
+---
+
 *日志结束*

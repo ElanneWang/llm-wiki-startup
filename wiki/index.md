@@ -15,7 +15,8 @@ updated: 2026-06-14
 
 ## 源资料摘要 (Sources)
 
-- [[FDE播客-十字路口Crossing对谈Rolling AI]] —— 小宇宙播客，讨论 FDE 概念与 AI 企业服务
+- [[FDE播客-十字路口Crossing对谈Rolling AI]] —— 小宇宙播客，讨论 FDE 概念与 AI 企业服务（中国视角）
+- [[YC访谈-Bob McGrew谈FDE方法论]] —— YC 访谈，FDE 模式起源、Echo/Delta 结构、商业模式（硅谷视角）
 
 ## 实体 (Entities)
 
@@ -43,8 +44,8 @@ updated: 2026-06-14
 
 ## 统计
 
-- 总页面数：9（含 meta 页面 2 个）
-- 源资料数：1
+- 总页面数：10（含 meta 页面 2 个）
+- 源资料数：2
 - 实体数：1
 - 概念数：2
 - 案例数：2
