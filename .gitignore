@@ -1,0 +1,28 @@
+# 音频/视频等大文件
+raw/podcasts/*.mp3
+raw/podcasts/*.m4a
+raw/podcasts/*.webm
+raw/podcasts/*.opus
+raw/videos/*.mp4
+raw/videos/*.mkv
+raw/videos/*.webm
+
+# 图片
+raw/assets/*.png
+raw/assets/*.jpg
+raw/assets/*.jpeg
+raw/assets/*.gif
+raw/assets/*.webp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Obsidian
+.obsidian/
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
