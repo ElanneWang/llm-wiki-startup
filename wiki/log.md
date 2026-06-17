@@ -83,4 +83,17 @@ grep "^## \\[" log.md | tail -5
 
 ---
 
+## [2026-06-17] ingest | 文章：Notion CEO Ivan Zhao - Steam, Steel, and Infinite Minds
+
+- **来源**: Notion 博客 https://www.notion.com/blog/steam-steel-and-infinite-minds-ai
+- **作者**: Ivan Zhao（Notion 联合创始人兼 CEO）
+- **主题**: AI 作为知识工作的"奇迹材料"，三个历史隐喻（钢铁、蒸汽机、城市）
+- **创建页面**:
+  - `raw/articles/Steam-Steel-and-Infinite-Minds.md`（原始资料）
+  - `wiki/sources/Notion-IvanZhao-Steam-Steel-Infinite-Minds.md`（源资料摘要）
+  - `wiki/concepts/AI-Agent-知识工作的未来.md`（概念页面）
+- **更新**: index.md
+
+---
+
 *日志结束*
