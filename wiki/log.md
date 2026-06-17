@@ -92,6 +92,11 @@ grep "^## \\[" log.md | tail -5
   - `raw/articles/Steam-Steel-and-Infinite-Minds.md`（原始资料）
   - `wiki/sources/Notion-IvanZhao-Steam-Steel-Infinite-Minds.md`（源资料摘要）
   - `wiki/concepts/AI-Agent-知识工作的未来.md`（概念页面）
+- **深度挖掘后新增**:
+  - `wiki/concepts/技术转变的普遍模式.md` —— McLuhan 的后视镜理论
+  - `wiki/concepts/上下文碎片化与可验证性.md` —— AI Agent 两大障碍
+  - `wiki/concepts/无限心智的管理者.md` —— 从执行者到编排者
+  - `wiki/cases/Notion-700-Agent实践.md` —— Notion 内部 Agent 部署案例
 - **更新**: index.md
 
 ---
