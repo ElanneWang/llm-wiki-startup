@@ -18,6 +18,7 @@ updated: 2026-06-14
 - [[FDE播客-十字路口Crossing对谈Rolling AI]] —— 小宇宙播客，讨论 FDE 概念与 AI 企业服务（中国视角）
 - [[YC访谈-Bob McGrew谈FDE方法论]] —— YC 访谈，FDE 模式起源、Echo/Delta 结构、商业模式（硅谷视角）
 - [[硅谷101-E240-FDE-OpenAI-PE]] —— 硅谷101播客，FDE 团队构建、人才画像、Cresta 实操（从业者视角）
+- [[YC-如何构建AI原生服务公司]] —— YC Charlie Warren：从 SaaS 到 Service-as-a-Software，选市场、定价、P&L
 
 ## 实体 (Entities)
 
@@ -51,8 +52,8 @@ updated: 2026-06-14
 
 ## 统计
 
-- 总页面数：17（含 meta 页面 2 个）
-- 源资料数：4
+- 总页面数：18（含 meta 页面 2 个）
+- 源资料数：5
 - 实体数：1
 - 概念数：6
 - 案例数：4

@@ -115,4 +115,19 @@ grep "^## \\[" log.md | tail -5
 
 ---
 
+## [2026-06-21] ingest | 视频：YC - How to Build an AI-Native Services Company
+
+- **来源**: YouTube https://www.youtube.com/watch?v=gSNFJbgoaHI
+- **嘉宾**: Charlie Warren（YC Visiting Partner）
+- **主题**: AI 原生服务公司构建方法论（Service-as-a-Software、Sam Altman 测试、选市场、定价、P&L）
+- **备注**: YouTube SSL 连接失败，通过 noembed API + 网页文章获取内容
+- **创建页面**:
+  - `raw/videos/YC-How-to-Build-AI-Native-Services-Company.md`（原始资料）
+  - `wiki/sources/YC-如何构建AI原生服务公司.md`（源资料摘要）
+- **更新页面**:
+  - `wiki/concepts/AI企业服务.md`（新增 Service-as-a-Software、Sam Altman 测试、目标市场特征、风险陷阱）
+- **更新**: index.md
+
+---
+
 *日志结束*
