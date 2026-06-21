@@ -2,9 +2,9 @@
 title: FDE-前置部署工程师
 category: concepts
 created: 2026-06-14
-updated: 2026-06-15
-tags: [FDE, AI, 企业服务, 职业, Palantir, OpenAI, Bob McGrew]
-sources: [FDE播客-十字路口Crossing对谈Rolling AI.md, YC访谈-AI创业必看的FDE方法论.md]
+updated: 2026-06-21
+tags: [FDE, AI, 企业服务, 职业, Palantir, OpenAI, Bob McGrew, FDPM, Cresta]
+sources: [FDE播客-十字路口Crossing对谈Rolling AI.md, YC访谈-AI创业必看的FDE方法论.md, 硅谷101-E240-FDE-OpenAI-PE.md]
 ---
 
 # FDE（Forward Deployed Engineer）
@@ -28,39 +28,80 @@ FDE（Forward Deployed Engineer，前置部署工程师）是一个源自 Palant
 - **交付物是智能体而非 PPT**：与传统咨询交付文档不同，FDE 交付的是可运行的 AI Agent
 - **做那些无法规模化的事**（doing things that don't scale at scale）
 
-### Echo & Delta 团队结构（Palantir 原版）
+### 团队结构演进
+
+#### Palantir 原版：Echo & Delta
 
 | 角色 | 职责 | 类比 |
 |------|------|------|
-| **Echo** | 行业洞察者，深入客户工作流程，挖掘核心痛点，敢于质疑现状 | Rolling AI 中的"找金牌销售" |
-| **Delta** | 技术实干家，快速原型，优先速度而非完美抽象 | Rolling AI 中的"AI 工程师" |
-| **核心产品团队（总部）** | 将前线定制方案抽象为可复用的平台功能 | Rolling AI 中的"方法论沉淀" |
+| **Echo** | 行业洞察者，深入客户工作流程，挖掘核心痛点 | Rolling AI 中"找金牌销售" |
+| **Delta** | 技术实干家，快速原型，优先速度而非完美抽象 | Rolling AI 中"AI 工程师" |
+| **核心产品团队** | 将前线定制方案抽象为可复用平台功能 | Rolling AI 中"方法论沉淀" |
+
+#### Cresta 实践版：FDE & FDPM（新增）
+
+| 角色 | 类比 | 职责 | 背景 |
+|------|------|------|------|
+| **FDE** | 前置部署的 CTO | 技术实现、AI Best Practices、SDK/工具化、测试体系 | 资深工程师，AI Agent 专精 |
+| **FDPM** (Forward Deployed PM) | 前置部署的 CEO | 客户关系、需求把控、信任建立、Quality 负责、Upsell | 咨询背景/企业运营背景 |
+
+**团队配比**：1 FDPM : 2-3 FDE，无论项目大小，避免交接成本
+
+**行业专家培养**：雪球效应——按商业领域（医疗、保险、支付）和技术领域（Payment、Search）分组，前面积累的 Skill/知识库新 FDE 直接复用
+
+### FDE 人才画像（新增）
+
+**核心能力要求**：
+1. **资深工程师**：必须是合格且优秀的工程师，不招 Junior
+2. **AI Agent 开发经验**：开发并测试过 AI Agent，2-3 周内能进项目
+3. **过硬的 Customer Facing 能力**：能与对方 CTO、IT Director 对话
+4. **靠譜 + 韧性**：面对不完美的世界（API 文档糊弄、SOP 不清晰）
+5. **多任务并行能力**：同时处理 2-3 个项目
+
+**不招 Junior 的原因**：
+- 一个项目就一两个人，与对方 CTO 共创
+- Junior 难以建立信任
+- 没有足够的判断力来判断 AI 给的建议好不好
+
+**长期趋势**：
+- 短期：工具使 FDE 更高效，人均项目从 2-3 个 → 5-6 个
+- 远期：分化——高端 FDE 做复杂问题，低端 FDE 面向中小企业
+- FDE 不会被 AI 取代，因为客户复杂性永远存在
 
 ### 工作内容
 1. 深入客户企业内部，理解业务上下文
 2. 找到企业内最优秀的员工（金牌销售、优秀店长等）作为"师傅"
 3. 通过 Shadow（陪伴）方式学习最佳实践
-4. 将经验转化为 AI Agent，15天内上线
+4. 将经验转化为 AI Agent，15天内上线（Rolling AI）/ 2-4 个月完整周期（Cresta）
 5. 持续优化：每天复盘、迭代
 6. **将一线经验反馈到核心产品中**，让产品每服务一个客户就更强大一分
 
-### 与传统岗位的对比
+### 工作节奏（Cresta 模式）
+- **前期**：飞去客户办公室开 2-3 天闭门会，定 Goal/KPI，验证 API
+- **中期**：远程开发，每周/每天同步会
+- **后期**：UAT 阶段回访
+- 指标达标后 FDE 退出，后续由非 AI 专精的同事维护
+
+### 灵活商务模式
+- 甚至倒贴 2-3 个月做 PoC，客户尝到甜头后自动续约
+- "就像试吃，入口了就不愿意退了"
+
+### 与 FDE 对比
 
 | 维度 | 传统 IT 实施 | 传统咨询 | FDE |
 |------|-------------|---------|-----|
 | 核心假设 | 软件是工具 | 解决一次性问题 | AI 是劳动力 |
 | 交付物 | 软件系统/PPT | 报告/建议 | 可运行的智能体 |
-| 上线周期 | 半年到一年 | 项目制 | 15天 |
+| 上线周期 | 半年到一年 | 项目制 | 15天 - 4个月 |
 | 学习方式 | 需求文档/访谈 | 调研+框架 | Shadow 陪伴学习 |
 | 价值放大 | 线性 | 一次性 | 指数级（经验复制+产品杠杆） |
 | 反馈闭环 | 无 | 无 | 有（一线→产品→一线） |
 
-### 与咨询的本质区别（关键）
+### 与咨询的本质区别
 - **咨询**只解决一次性问题，交付后离开
 - **FDE**要求把一线经验和解决方案反馈到产品中
 - **反馈闭环** + **抽象能力** 是 FDE 的真正精髓
-- 健康指标：核心产品是否在持续进化？交付效率是否在提高？
-- 如果只是人海战术的项目交付，那就南辕北辙了
+- **PE 的视角**：PE 不找传统咨询/外包，直接找模型公司合作——因为 PE 要给 CEO 一个硬指标："用 FDE 把业务 AI 化"，比外包更快速、更直接（PE → CEO → 执行）
 
 ### 商业模式
 - **结果导向定价**：合同与解决的问题价值挂钩，而非按座席或 API 调用收费
@@ -69,20 +110,29 @@ FDE（Forward Deployed Engineer，前置部署工程师）是一个源自 Palant
   1. **交付价值**：每个客户交付的结果价值
   2. **产品利用率**：FDE 在不增加额外投入的情况下能交付多少
 
+### PE 参与的意义（新增）
+- OpenAI 与 PE 合作，Anthropic 与 Blackstone 合作
+- PE 手里有大量 portfolio companies（传统企业），需要 AI 转型
+- PE 的角色：直接给 CEO 压力，加速 AI 落地
+- 传统咨询/外包公司面临转型危机
+
 ### 行业影响
-- 催生了新的职业路径：Builder / FDE / AI 咨询顾问
+- 催生了新的职业路径：FDE / FDPM / AI 咨询顾问
+- FDE 长期分化：高端的做复杂问题，低端的服务中小企业
 - 改变了企业采购 AI 的方式：从买软件到"雇佣数字员工"
 - 重新定义了基层优秀员工的价值：从执行者变为"上下文提供者"和"经验导师"
 - AI Agent 市场过于碎片化，深度嵌入客户现场是唯一探索路径
 
 ## 相关页面
 
-- [[Rolling AI]] —— 实践 FDE 模式的公司
+- [[Rolling AI]] —— 实践 FDE 模式的中国公司
 - [[AI企业服务]] —— AI 企业服务趋势
 - [[FDE播客-十字路口Crossing对谈Rolling AI]] —— 播客源资料（中国视角）
 - [[YC访谈-Bob McGrew谈FDE方法论]] —— 视频源资料（硅谷视角）
+- [[硅谷101-E240-FDE-OpenAI-PE]] —— 播客源资料（FDE 团队实践）
 - [[乳品企业营养健康AI平台]] —— FDE 实践案例
 - [[连锁奶茶门店智能体系统]] —— FDE 实践案例
+- [[Notion-700-Agent实践]] —— 类似理念的实践
 
 ## 引用来源
 
@@ -90,3 +140,4 @@ FDE（Forward Deployed Engineer，前置部署工程师）是一个源自 Palant
 - [视频原始资料](../raw/videos/YC访谈-AI创业必看的FDE方法论.md)
 - [B站链接](https://www.bilibili.com/video/BV1X6YNzKEhw)
 - [YouTube 原版](https://www.youtube.com/watch?v=Zyw-YA0k3xo)
+- [硅谷101转录文本](../raw/podcasts/E240-硅谷101-FDE-OpenAI-PE.md)

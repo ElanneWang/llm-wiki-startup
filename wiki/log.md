@@ -101,4 +101,18 @@ grep "^## \\[" log.md | tail -5
 
 ---
 
+## [2026-06-21] ingest | 播客：硅谷101 E240 - OpenAI联手PE，聊聊硅谷最火新职位FDE
+
+- **来源**: 小宇宙 硅谷101 https://www.xiaoyuzhoufm.com/episode/6a333603351c82c12b264c56
+- **嘉宾**: Jove（Cresta FDE 负责人）、Oliver（Invisible Technologies VP，前麦肯锡）
+- **主题**: FDE 团队构建（FDPM/FDE 双角色）、人才画像、方法论、PE 合作
+- **创建页面**:
+  - `wiki/sources/硅谷101-E240-FDE-OpenAI-PE.md`（源资料摘要）
+  - `wiki/cases/Cresta-FDE团队实践.md`（案例页）
+- **更新页面**:
+  - `wiki/concepts/FDE-前置部署工程师.md`（大幅更新：新增 FDPM 角色、人才画像、工作节奏、PE 参与）
+- **更新**: index.md
+
+---
+
 *日志结束*
