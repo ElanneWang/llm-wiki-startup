@@ -176,4 +176,23 @@ grep "^## \\[" log.md | tail -5
 
 ---
 
+## [2026-06-27] ingest | 文章：Claude - The Founder's Playbook
+
+- **来源**: https://claude.com/blog/the-founders-playbook
+- **作者**: Claude/Anthropic
+- **日期**: 2026-05-14
+- **主题**: AI 原生创业四阶段（Idea→MVP→Launch→Scale），创始人从 IC 到编排者
+- **格式**: 博客 + PDF（33页）
+- **创建页面**:
+  - `raw/articles/Claude-The-Founders-Playbook-Building-an-AI-Native-Startup.md`（原始资料）
+  - `wiki/sources/Claude-The-Founders-Playbook.md`（源资料摘要）
+- **核心洞察**:
+  - 42% 初创公司失败因为构建了没人想要的东西，Agentic coding 使这个问题更严重
+  - 创始人角色从"个人贡献者"转变为"Agent 编排者"
+  - Sense-making 必须领先于构建
+  - AI 放大了确认偏误，解药是结构化的对抗性思维
+- **更新**: index.md
+
+---
+
 *日志结束*
