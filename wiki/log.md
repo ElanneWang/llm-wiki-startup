@@ -195,4 +195,24 @@ grep "^## \\[" log.md | tail -5
 
 ---
 
+## [2026-06-27] ingest | 文章：Diana Hu (YC) - 如何构建 AI 原生公司
+
+- **来源**: YC（用户提供完整文字稿）
+- **作者**: Diana Hu，YC 合伙人
+- **主题**: AI 是公司操作系统、智能闭环系统、AI 软件工厂、三种员工类型、Token Maxing
+- **创建页面**:
+  - `raw/articles/Diana-Hu-YC-AI-Native-Company.md`（原始资料）
+  - `wiki/sources/Diana-Hu-YC-如何构建AI原生公司.md`（源资料摘要）
+- **核心洞察**:
+  - AI 是公司操作系统，不是工具
+  - 开环系统 → 闭环系统（公司必须 queryable、legible to AI）
+  - AI 软件工厂：人类写 Spec，AI 写代码
+  - 千倍工程师时代已经到来
+  - 三种员工类型：IC / DRI / AI Founder
+  - Token Maxing > Headcount Maxing
+  - Jack Dorsey（Block）：公司必须重建为智能层
+- **更新**: index.md
+
+---
+
 *日志结束*
