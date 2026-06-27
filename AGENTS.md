@@ -20,6 +20,7 @@ llm-wiki/
 │   ├── podcasts/      # 播客（音频 + 转录文本）
 │   ├── videos/        # 视频（视频 + 转录文本）
 │   ├── thoughts/      # 个人原始思考（日记、灵感、笔记）
+│   ├── products/      # 产品观察笔记（官网、功能、叙事）
 │   └── assets/        # 图片等附件
 ├── wiki/              # LLM 生成的 Wiki 页面
 │   ├── index.md       # 内容目录
@@ -30,6 +31,7 @@ llm-wiki/
 │   ├── concepts/      # 概念页面（理论、方法、术语等）
 │   ├── cases/         # 案例（具体场景 + 解决方案 + 结果）
 │   ├── thoughts/      # 结构化个人思考（提炼、链接、演化）
+│   ├── products/      # 产品分析（官网、功能、叙事、设计）
 │   └── synthesis/     # 综合分析（对比、趋势、观点等）
 └── tools/             # 辅助工具脚本
 ```
@@ -81,6 +83,7 @@ sources: [source-filename-1, source-filename-2]
 | `concepts` | 概念页面 | 理论、方法、技术、术语 |
 | `cases` | 具体案例 | 场景 + 解决方案 + 结果 |
 | `thoughts` | 结构化个人思考 | 提炼后的观点、洞察、假设 |
+| `products` | 产品分析 | 官网、功能、叙事、设计、定价 |
 | `synthesis` | 综合分析 | 对比分析、趋势总结、观点综合 |
 
 ### 案例页面模板
@@ -172,6 +175,68 @@ tags: [tag1, tag2]
 - [原始思考](../raw/thoughts/xxx.md)
 ```
 
+### 产品分析页面模板
+
+```markdown
+---
+title: 产品名称
+category: products
+type: [saas/ai-agent/tool/mobile-app/platform]
+company: [[所属公司]]
+website: https://...
+country: 美国/中国/欧洲等
+status: [观察中/深度分析/已验证]
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+tags: [tag1, tag2]
+sources: [source-filename-1]
+---
+
+# 产品名称
+
+## 一句话定位
+产品是什么，解决什么问题。
+
+## 产品虚实分析
+
+### 实的部分（实际功能/技术）
+- 核心功能1
+- 核心功能2
+- 技术亮点
+
+### 虚的部分（叙事/品牌/定位）
+- 品牌叙事：如何讲述自己的故事
+- 定位策略：与竞品的差异化
+- 情感连接：如何让用户产生共鸣
+
+## 官网分析
+- 首屏信息架构
+- CTA 设计
+- 信任建立方式
+
+## 定价策略
+- 定价模式
+- 与竞品的对比
+
+## 可借鉴之处
+- 设计亮点
+- 叙事技巧
+- 功能创新
+
+## 与现有 Wiki 的关系
+- **与 [[所属公司]]**：该产品是公司的核心/衍生产品
+- **与 [[相关概念]]**：体现了某种概念或趋势
+- **与 [[相关案例]]**：在某某案例中被使用
+
+## 相关页面
+- [[所属公司]] —— 产品所属公司
+- [[相关概念]] —— 关联概念
+- [[相关案例]] —— 关联案例
+
+## 引用来源
+- [原始观察笔记](../raw/products/产品名称.md)
+```
+
 ## 工作流程
 
 ### 1. 摄入外部资料 (Ingest External)
@@ -202,7 +267,21 @@ tags: [tag1, tag2]
 
 **思考演化路径：raw/thoughts/ → wiki/thoughts/ → wiki/cases/（实践验证后）**
 
-### 3. 查询 (Query)
+### 3. 摄入产品观察 (Ingest Product)
+
+当用户要求分析产品时：
+
+1. 阅读用户的原始观察（位于 `raw/products/` 目录）
+2. 访问产品官网，补充信息
+3. 在 `wiki/products/` 创建结构化分析页
+4. 拆解"实的部分"（功能、技术）和"虚的部分"（叙事、定位）
+5. 链接到相关的 `entities/`（所属公司）、`concepts/`（体现的概念）、`cases/`（使用场景）
+6. 更新 `wiki/index.md`
+7. 在 `wiki/log.md` 追加记录
+
+**产品分析路径：raw/products/ → wiki/products/ → wiki/outputs/drafts/（创作时调用）**
+
+### 4. 查询 (Query)
 
 当用户提问时：
 
@@ -211,7 +290,7 @@ tags: [tag1, tag2]
 3. 综合回答，使用 `[[页面名]]` 格式引用
 4. **如回答有价值，询问用户是否保存为新页面**
 
-### 3. 整理 (Lint)
+### 5. 整理 (Lint)
 
 当用户要求整理时：
 
