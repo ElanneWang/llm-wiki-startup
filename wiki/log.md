@@ -234,4 +234,20 @@ grep "^## \\[" log.md | tail -5
 
 ---
 
+## [2026-06-28] synthesis | 体系化专题：AI 组织
+
+- **类型**: 综合分析（synthesis）
+- **创建页面**: `wiki/synthesis/AI-组织.md`
+- **内容结构**:
+  - 一、什么是 AI 组织（定义、开环→闭环、三种员工类型、人机协作关系）
+  - 二、为什么是现在（技术、组织、经济、初创公司窗口期）
+  - 三、具体如何去做（Queryable → 喂给智能系统 → 消除中间件 + AI 软件工厂）
+  - 四、从开环到闭环的 5 级演进路径
+  - 五、关键金句汇总
+- **引用来源**: Diana Hu、Claude Playbook、Notion、Ivan Zhao 等 6 个 Wiki 页面
+- **更新**: index.md（新增 Synthesis 分类和统计）
+- **分类逻辑确认**: synthesis = 体系化专题（资料 + 思考融合）；thoughts = 碎片化灵感
+
+---
+
 *日志结束*
